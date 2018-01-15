@@ -1,4 +1,89 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 3
+LIBS:ruby-rescue
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:LEM
+LIBS:linear
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
 LIBS:ruby-cache
 EELAYER 26 0
 EELAYER END
@@ -15,7 +100,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ruby-rescue:LM386-RESCUE-ruby U1
+L LM386-RESCUE-ruby U1
 U 1 1 59AD63B1
 P 5500 3200
 F 0 "U1" H 5600 3500 50  0000 L CNN
@@ -26,7 +111,7 @@ F 3 "" H 5700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NJFET_DSG Q1
+L Q_NJFET_DSG Q1
 U 1 1 59AD64FA
 P 3250 3150
 F 0 "Q1" H 3441 3196 50  0000 L CNN
@@ -37,7 +122,7 @@ F 3 "" H 3250 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L R R1
 U 1 1 59AD656F
 P 2850 3650
 F 0 "R1" H 2920 3696 50  0000 L CNN
@@ -48,7 +133,7 @@ F 3 "" H 2850 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L R R2
 U 1 1 59AD65C4
 P 3350 3650
 F 0 "R2" H 3420 3696 50  0000 L CNN
@@ -59,7 +144,7 @@ F 3 "" H 3350 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C1
+L C C1
 U 1 1 59AD6619
 P 3800 3400
 F 0 "C1" V 3548 3400 50  0000 C CNN
@@ -70,7 +155,7 @@ F 3 "" H 3800 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:CP1 C2
+L CP1 C2
 U 1 1 59AD66D2
 P 4800 2650
 F 0 "C2" H 4915 2696 50  0000 L CNN
@@ -81,7 +166,7 @@ F 3 "" H 4800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP1 C5
+L CP1 C5
 U 1 1 59AD675E
 P 6400 3200
 F 0 "C5" V 6652 3200 50  0000 C CNN
@@ -92,7 +177,7 @@ F 3 "" H 6400 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C4
+L C C4
 U 1 1 59AD67F5
 P 6050 3900
 F 0 "C4" H 6165 3946 50  0000 L CNN
@@ -103,7 +188,7 @@ F 3 "" H 6050 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L R R3
 U 1 1 59AD6884
 P 6050 3500
 F 0 "R3" H 6120 3546 50  0000 L CNN
@@ -114,7 +199,7 @@ F 3 "" H 6050 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C3
+L C C3
 U 1 1 59AD68DE
 P 5700 2550
 F 0 "C3" V 5448 2550 50  0000 C CNN
@@ -125,7 +210,7 @@ F 3 "" H 5700 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:POT RV2
+L POT RV2
 U 1 1 59AD69A3
 P 5600 3800
 F 0 "RV2" H 5531 3754 50  0000 R CNN
@@ -136,7 +221,7 @@ F 3 "" H 5600 3800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:POT RV1
+L POT RV1
 U 1 1 59AD6A04
 P 4050 3650
 F 0 "RV1" H 3980 3696 50  0000 R CNN
@@ -147,7 +232,7 @@ F 3 "" H 4050 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 59AD6BBB
 P 3350 4000
 F 0 "#PWR07" H 3350 3750 50  0001 C CNN
@@ -158,21 +243,21 @@ F 3 "" H 3350 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 3350 3350 3400
+	3350 3350 3350 3500
 Wire Wire Line
 	3650 3400 3350 3400
 Connection ~ 3350 3400
 Wire Wire Line
-	2450 3150 2850 3150
+	2450 3150 3050 3150
 Wire Wire Line
 	2850 3150 2850 3500
 Connection ~ 2850 3150
 Wire Wire Line
 	2850 3800 2850 3900
 Wire Wire Line
-	2850 3900 3350 3900
+	2850 3900 4050 3900
 Wire Wire Line
-	3350 3800 3350 3900
+	3350 3800 3350 4000
 Connection ~ 3350 3900
 Wire Wire Line
 	4050 3900 4050 3800
@@ -183,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 2950 3350 2750
 $Comp
-L power:VCC #PWR06
+L VCC #PWR06
 U 1 1 59AD6D41
 P 3350 2750
 F 0 "#PWR06" H 3350 2600 50  0001 C CNN
@@ -202,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 4050 5400 4050
 Wire Wire Line
-	5400 4050 5400 3800
+	5400 4050 5400 3700
 Wire Wire Line
 	5400 3800 5450 3800
 Wire Wire Line
@@ -217,7 +302,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 3600 5200 4050
 $Comp
-L power:GND #PWR011
+L GND #PWR011
 U 1 1 59AD7369
 P 5200 4050
 F 0 "#PWR011" H 5200 3800 50  0001 C CNN
@@ -228,7 +313,7 @@ F 3 "" H 5200 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L GND #PWR014
 U 1 1 59AD73AF
 P 6050 4200
 F 0 "#PWR014" H 6050 3950 50  0001 C CNN
@@ -243,12 +328,12 @@ Wire Wire Line
 Wire Wire Line
 	6050 3650 6050 3750
 Wire Wire Line
-	5800 3200 6050 3200
+	5800 3200 6250 3200
 Wire Wire Line
 	6050 3200 6050 3350
 Connection ~ 6050 3200
 $Comp
-L ruby-rescue:Audio-Jack-3_3Switches-RESCUE-ruby J1
+L Audio-Jack-3_3Switches J1
 U 1 1 59AD76D9
 P 1350 2850
 F 0 "J1" V 1308 3137 50  0000 L CNN
@@ -265,7 +350,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 3050 1350 3300
 $Comp
-L power:GND #PWR02
+L GND #PWR02
 U 1 1 59AD7CEF
 P 1550 3300
 F 0 "#PWR02" H 1550 3050 50  0001 C CNN
@@ -276,7 +361,7 @@ F 3 "" H 1550 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-BATT #PWR01
+L -BATT #PWR01
 U 1 1 59AD7DAB
 P 1350 3300
 F 0 "#PWR01" H 1350 3150 50  0001 C CNN
@@ -291,7 +376,7 @@ INPUT
 Text Notes 1000 3750 0    60   ~ 0
 Mono jack acts \nas a power switch
 $Comp
-L device:R R4
+L R R4
 U 1 1 59AD82F3
 P 8200 3050
 F 0 "R4" H 8270 3096 50  0000 L CNN
@@ -302,7 +387,7 @@ F 3 "" H 8200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L GND #PWR016
 U 1 1 59AD83C0
 P 8200 3350
 F 0 "#PWR016" H 8200 3100 50  0001 C CNN
@@ -317,7 +402,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2200 7000 3000
 $Comp
-L device:Speaker LS1
+L Speaker LS1
 U 1 1 59AD8938
 P 7600 2200
 F 0 "LS1" H 7770 2196 50  0000 L CNN
@@ -328,7 +413,7 @@ F 3 "" H 7590 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L GND #PWR015
 U 1 1 59AD8A44
 P 7300 2550
 F 0 "#PWR015" H 7300 2300 50  0001 C CNN
@@ -347,7 +432,7 @@ Wire Wire Line
 Text Label 6650 3200 0    60   ~ 0
 OUTPUT
 $Comp
-L ruby-rescue:Audio-Jack-3_2Switches-RESCUE-ruby J4
+L Audio-Jack-3_2Switches J4
 U 1 1 59AD93FD
 P 7800 3100
 F 0 "J4" H 7850 2900 50  0000 R CNN
@@ -358,7 +443,7 @@ F 3 "" H 8050 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6550 3200 7250 3200
+	6550 3200 7600 3200
 Wire Wire Line
 	7600 3100 7250 3100
 Wire Wire Line
@@ -383,7 +468,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2550 5950 2800
 $Comp
-L power:GND #PWR013
+L GND #PWR013
 U 1 1 59AD9D25
 P 5950 2800
 F 0 "#PWR013" H 5950 2550 50  0001 C CNN
@@ -394,7 +479,7 @@ F 3 "" H 5950 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR012
+L VCC #PWR012
 U 1 1 59AD9DCB
 P 5400 2450
 F 0 "#PWR012" H 5400 2300 50  0001 C CNN
@@ -405,7 +490,7 @@ F 3 "" H 5400 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ruby-rescue:TEST_1P-RESCUE-ruby J2
+L TEST_1P J2
 U 1 1 59ADA534
 P 1650 1850
 F 0 "J2" V 1845 1924 50  0000 C CNN
@@ -416,7 +501,7 @@ F 3 "" H 1850 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ruby-rescue:TEST_1P-RESCUE-ruby J3
+L TEST_1P J3
 U 1 1 59ADA6E5
 P 1650 2100
 F 0 "J3" V 1845 2174 50  0000 C CNN
@@ -427,7 +512,7 @@ F 3 "" H 1850 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:-BATT #PWR04
+L -BATT #PWR04
 U 1 1 59ADA7CA
 P 1800 2200
 F 0 "#PWR04" H 1800 2050 50  0001 C CNN
@@ -438,7 +523,7 @@ F 3 "" H 1800 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+BATT #PWR03
+L +BATT #PWR03
 U 1 1 59ADA9A7
 P 1800 1750
 F 0 "#PWR03" H 1800 1600 50  0001 C CNN
@@ -449,7 +534,7 @@ F 3 "" H 1800 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1850 1800 1850
+	1650 1850 2000 1850
 Wire Wire Line
 	1800 1850 1800 1750
 Wire Wire Line
@@ -457,7 +542,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 2100 1800 2200
 $Comp
-L power:VCC #PWR05
+L VCC #PWR05
 U 1 1 59ADAB8C
 P 2000 1750
 F 0 "#PWR05" H 2000 1600 50  0001 C CNN
@@ -477,7 +562,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3300 5200 3300
 $Comp
-L power:GND #PWR010
+L GND #PWR010
 U 1 1 59B44D57
 P 4600 3150
 F 0 "#PWR010" H 4600 2900 50  0001 C CNN
@@ -492,7 +577,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3100 4600 3150
 $Comp
-L power:GND #PWR09
+L GND #PWR09
 U 1 1 59B45070
 P 4550 2850
 F 0 "#PWR09" H 4550 2600 50  0001 C CNN
@@ -503,7 +588,7 @@ F 3 "" H 4550 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR08
+L VCC #PWR08
 U 1 1 59B45127
 P 4550 2450
 F 0 "#PWR08" H 4550 2300 50  0001 C CNN
@@ -526,7 +611,7 @@ NoConn ~ 1050 3050
 NoConn ~ 1250 3050
 NoConn ~ 1450 3050
 $Comp
-L device:LED D1
+L LED D1
 U 1 1 59B97596
 P 3650 1800
 F 0 "D1" H 3641 2016 50  0000 C CNN
@@ -537,7 +622,7 @@ F 3 "" H 3650 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R5
+L R R5
 U 1 1 59B97625
 P 3200 1800
 F 0 "R5" V 2993 1800 50  0000 C CNN
@@ -558,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 1800 2950 1900
 $Comp
-L power:GND #PWR017
+L GND #PWR017
 U 1 1 59B97802
 P 2950 1900
 F 0 "#PWR017" H 2950 1650 50  0001 C CNN
@@ -569,7 +654,7 @@ F 3 "" H 2950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR018
+L VCC #PWR018
 U 1 1 59B978AD
 P 3950 1650
 F 0 "#PWR018" H 3950 1500 50  0001 C CNN
@@ -579,20 +664,4 @@ F 3 "" H 3950 1650 50  0001 C CNN
 	1    3950 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 3400 3350 3500
-Wire Wire Line
-	2850 3150 3050 3150
-Wire Wire Line
-	3350 3900 4050 3900
-Wire Wire Line
-	3350 3900 3350 4000
-Wire Wire Line
-	5400 3800 5400 3700
-Wire Wire Line
-	6050 3200 6250 3200
-Wire Wire Line
-	7250 3200 7600 3200
-Wire Wire Line
-	1800 1850 2000 1850
 $EndSCHEMATC
